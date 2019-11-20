@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="testsuite1">
+<test name="myfirst">
+<classes>
+<class name="myfirst.NewTest">
+<methods>
+<include name="f"></include>
+<include name="f2"></include>
+<exclude name="f1"></exclude>
+</methods>
+</class>
+</classes>
+</test>
+</suite>
